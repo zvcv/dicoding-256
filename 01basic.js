@@ -69,3 +69,9 @@ switch (languag) {
 
 console.log(greetin);
 
+// LOOP
+
+for (let i = 0; i < 5; i++) {
+    console.log(i);
+}
+
