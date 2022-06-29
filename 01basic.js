@@ -1,8 +1,5 @@
 console.log("uyeah");
 
-<<<<<<< HEAD
-// testing
-=======
 // this is a comment
 
 // var sering dianggap menghasilkan banyak bug
@@ -49,4 +46,26 @@ console.log(greeting);
 const isMember = false;
 const discount = isMember ? 0.1 : 0;
 console.log(`Anda mendapatkan diskon sebesar ${discount * 100}%`)
->>>>>>> 6eeff3b1ff29e279b3882b9ee2bbf9bb8763f4d4
+
+
+// switch case
+
+let languag = "French";
+let greetin = null;
+
+switch (languag) {
+    case "English":
+        greetin = "Good Morning!";
+        break;
+    case "French":
+        greetin = "Bonjour!";
+        break;
+    case "Japanese":
+        greetin = "Ohayou Gozaimasu!";
+        break;
+    default:
+        greetin = "Selamat Pagi!";
+}
+
+console.log(greetin);
+
